@@ -1802,6 +1802,9 @@ input[type=file]::file-selector-button {
     border: solid 1px #E8E8E8;
     border-radius: 10px;
 }
+.boat_details__messbutton a:hover {
+    color: #000;
+}
 /* Message Page Start */
 .message .messageBox {
     padding: 0 0 .500rem .75rem;
@@ -2029,6 +2032,7 @@ input[type=file]::file-selector-button {
 } 
 .payment_page_area .main_contet .card-body div img {
     width: 90px;
+    margin-bottom: 10px;
 }
 /* Payment Summarey Page Start */
 .payment_summary__page .ps_celltwo__middle h3 {
@@ -2186,7 +2190,7 @@ select {
     text-align: left;
 }
 .sbs_right .sbs_right__two a {
-    padding: 8px 50px;
+    padding: 12px 60px;
     background-color: #254254;
     display: inline-block;
     border-radius: 5px;
