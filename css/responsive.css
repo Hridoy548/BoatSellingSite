@@ -765,10 +765,6 @@
     }
 }
 @media only screen and (min-width: 1200px)  {
-    .login_cover_img .logreg_main__img img:nth-child(1) {
-        height: 100vh;
-        width: unset;
-    }
     .file_ancor a {
         font-size: 16px;
     }
@@ -825,5 +821,11 @@
     }
     .sec_time__select {
         width: calc(100% + 2px) !important;
+    }
+}
+@media only screen and (min-width: 1300px)  {
+    .login_cover_img .logreg_main__img img:nth-child(1) {
+        height: 100vh;
+        width: unset;
     }
 }
